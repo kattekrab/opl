@@ -1,13 +1,10 @@
-FROM unocha/php-k8s:8.0-stable as builder
+FROM unocha/unified-builder:8.0-stable as builder
 
 ENV COMPOSER_ALLOW_SUPERUSER=1
 
 COPY . /srv/www
 WORKDIR /srv/www
-RUN apk add -U --no-cache patch && \
-    rm -rf ./vendor && \
-    composer self-update && \
-    composer install --no-dev && \
+RUN composer install --no-dev && \
     mkdir -p -m 0755 html/sites/default && \
     cp -a docker/settings.php docker/services.yml html/sites/default
 

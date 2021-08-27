@@ -104,6 +104,9 @@
     "drupal-composer/drupal-scaffold": {
         "version": "2.6.1"
     },
+    "drupal/admin_toolbar": {
+        "version": "3.0.2"
+    },
     "drupal/coder": {
         "version": "8.3.9"
     },
@@ -121,6 +124,12 @@
     },
     "drupal/devel": {
         "version": "4.0.0"
+    },
+    "drupal/migrate_plus": {
+        "version": "5.1.0"
+    },
+    "drupal/migrate_tools": {
+        "version": "5.x-dev"
     },
     "drupal/pathauto": {
         "version": "1.8.0"
