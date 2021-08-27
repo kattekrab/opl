@@ -8,7 +8,7 @@ RUN composer install --no-dev && \
     mkdir -p -m 0755 html/sites/default && \
     cp -a docker/settings.php docker/services.yml html/sites/default
 
-FROM unocha/php-k8s:8.0-stable
+FROM public.ecr.aws/unocha/php-k8s:8.0-NR-stable
 
 ARG VCS_REF
 ARG VCS_URL

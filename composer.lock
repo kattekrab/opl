@@ -1402,16 +1402,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "9.2.1",
+            "version": "9.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "20eb99aa59a265d22a21a4d6fde70901c3b5a37c"
+                "reference": "c723626030c728ec2f9f6526e6cd5f029c9e628c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/20eb99aa59a265d22a21a4d6fde70901c3b5a37c",
-                "reference": "20eb99aa59a265d22a21a4d6fde70901c3b5a37c",
+                "url": "https://api.github.com/repos/drupal/core/zipball/c723626030c728ec2f9f6526e6cd5f029c9e628c",
+                "reference": "c723626030c728ec2f9f6526e6cd5f029c9e628c",
                 "shasum": ""
             },
             "require": {
@@ -1437,7 +1437,7 @@
                 "laminas/laminas-diactoros": "^2.1",
                 "laminas/laminas-feed": "^2.12",
                 "masterminds/html5": "^2.1",
-                "pear/archive_tar": "^1.4.12",
+                "pear/archive_tar": "^1.4.14",
                 "php": ">=7.3.0",
                 "psr/log": "^1.0",
                 "stack/builder": "^1.0",
@@ -1650,9 +1650,9 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "support": {
-                "source": "https://github.com/drupal/core/tree/9.2.1"
+                "source": "https://github.com/drupal/core/tree/9.2.4"
             },
-            "time": "2021-07-07T13:04:41+00:00"
+            "time": "2021-08-12T17:48:08+00:00"
         },
         {
             "name": "drupal/core-composer-scaffold",
@@ -1706,16 +1706,16 @@
         },
         {
             "name": "drupal/core-recommended",
-            "version": "9.2.1",
+            "version": "9.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "f043a94e9a8aa60016974d60648508258a51bf86"
+                "reference": "b8f3420017a6e03f1402ee6058c6da16bba9b257"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/f043a94e9a8aa60016974d60648508258a51bf86",
-                "reference": "f043a94e9a8aa60016974d60648508258a51bf86",
+                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/b8f3420017a6e03f1402ee6058c6da16bba9b257",
+                "reference": "b8f3420017a6e03f1402ee6058c6da16bba9b257",
                 "shasum": ""
             },
             "require": {
@@ -1724,7 +1724,7 @@
                 "doctrine/annotations": "1.13.1",
                 "doctrine/lexer": "1.2.1",
                 "doctrine/reflection": "1.2.2",
-                "drupal/core": "9.2.1",
+                "drupal/core": "9.2.4",
                 "egulias/email-validator": "2.1.25",
                 "guzzlehttp/guzzle": "6.5.5",
                 "guzzlehttp/promises": "1.4.1",
@@ -1735,7 +1735,7 @@
                 "laminas/laminas-stdlib": "3.3.1",
                 "laminas/laminas-zendframework-bridge": "1.2.0",
                 "masterminds/html5": "2.7.4",
-                "pear/archive_tar": "1.4.13",
+                "pear/archive_tar": "1.4.14",
                 "pear/console_getopt": "v1.4.3",
                 "pear/pear-core-minimal": "v1.10.10",
                 "pear/pear_exception": "v1.0.2",
@@ -1787,9 +1787,9 @@
             ],
             "description": "Locked core dependencies; require this project INSTEAD OF drupal/core.",
             "support": {
-                "source": "https://github.com/drupal/core-recommended/tree/9.2.1"
+                "source": "https://github.com/drupal/core-recommended/tree/9.2.4"
             },
-            "time": "2021-07-07T13:04:41+00:00"
+            "time": "2021-08-12T17:48:08+00:00"
         },
         {
             "name": "drupal/ctools",
@@ -3358,16 +3358,16 @@
         },
         {
             "name": "pear/archive_tar",
-            "version": "1.4.13",
+            "version": "1.4.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pear/Archive_Tar.git",
-                "reference": "2b87b41178cc6d4ad3cba678a46a1cae49786011"
+                "reference": "4d761c5334c790e45ef3245f0864b8955c562caa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pear/Archive_Tar/zipball/2b87b41178cc6d4ad3cba678a46a1cae49786011",
-                "reference": "2b87b41178cc6d4ad3cba678a46a1cae49786011",
+                "url": "https://api.github.com/repos/pear/Archive_Tar/zipball/4d761c5334c790e45ef3245f0864b8955c562caa",
+                "reference": "4d761c5334c790e45ef3245f0864b8955c562caa",
                 "shasum": ""
             },
             "require": {
@@ -3434,7 +3434,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-02-16T10:50:50+00:00"
+            "time": "2021-07-20T13:53:39+00:00"
         },
         {
             "name": "pear/console_getopt",
