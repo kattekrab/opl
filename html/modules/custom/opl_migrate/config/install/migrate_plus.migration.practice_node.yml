@@ -1,0 +1,33 @@
+label: OPL Practices
+migration_group: Practice
+migration_tags:
+  - opl
+source:
+  plugin: practice
+  cache_counts: true
+destination:
+  plugin: entity:node
+process:
+  type:
+    plugin: default_value
+    default_value: practice
+  title: title
+  created: date
+  changed: date
+  'body/format':
+    plugin: default_value
+    default_value: basic_html
+  'body/value': howTo
+  field_subtitle: subtitle
+  langcode:
+    plugin: default_value
+    default_value: en
+  uid:
+    plugin: default_value
+    default_value: 1
+
+# Use forced module dependency so uninstall/reinstall works properly
+dependencies:
+  enforced:
+    module:
+      - opl_migrate
