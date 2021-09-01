@@ -2,7 +2,7 @@ name: Migrate from OPL YAML files
 description: Custom migration module to import data from YAML files
 package: Migration
 type: module
-core: ^8.8 || ^9
+core_version_requirement: ^8.8 || ^9
 dependencies:
   - drupal:migrate
   - migrate_plus:migrate_plus
