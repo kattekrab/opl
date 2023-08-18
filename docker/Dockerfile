@@ -1,4 +1,4 @@
-FROM unocha/unified-builder:8.0-stable as builder
+FROM public.ecr.aws/unocha/php-k8s:8.1-stable as builder
 
 ENV COMPOSER_ALLOW_SUPERUSER=1
 
@@ -8,7 +8,7 @@ RUN composer install --no-dev && \
     mkdir -p -m 0755 html/sites/default && \
     cp -a docker/settings.php docker/services.yml html/sites/default
 
-FROM public.ecr.aws/unocha/php-k8s:8.0-NR-stable
+FROM public.ecr.aws/unocha/php-k8s:8.1-stable
 
 ARG VCS_REF
 ARG VCS_URL
