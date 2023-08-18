@@ -11,6 +11,9 @@
     "behat/mink-goutte-driver": {
         "version": "v1.2.1"
     },
+    "caxy/php-htmldiff": {
+        "version": "v0.1.12"
+    },
     "chi-teck/drupal-code-generator": {
         "version": "1.32.0"
     },
@@ -125,6 +128,15 @@
     "drupal/devel": {
         "version": "4.0.0"
     },
+    "drupal/diff": {
+        "version": "1.0.0"
+    },
+    "drupal/flag": {
+        "version": "4.0.0-beta2"
+    },
+    "drupal/markdown": {
+        "version": "dev-1.x"
+    },
     "drupal/migrate_plus": {
         "version": "5.1.0"
     },
@@ -148,6 +160,9 @@
     },
     "enlightn/security-checker": {
         "version": "v1.9.0"
+    },
+    "ezyang/htmlpurifier": {
+        "version": "v4.13.0"
     },
     "fabpot/goutte": {
         "version": "v3.3.0"
@@ -182,11 +197,17 @@
     "laminas/laminas-zendframework-bridge": {
         "version": "1.0.4"
     },
+    "league/commonmark": {
+        "version": "1.6.6"
+    },
     "league/container": {
         "version": "2.4.1"
     },
     "masterminds/html5": {
         "version": "2.7.3"
+    },
+    "mkalkbrenner/php-htmldiff-advanced": {
+        "version": "0.0.8"
     },
     "myclabs/deep-copy": {
         "version": "1.10.1"

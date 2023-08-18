@@ -12,13 +12,26 @@ process:
     plugin: default_value
     default_value: practice
   title: title
+  field_subtitle: subtitle
   created: date
   changed: date
   'body/format':
     plugin: default_value
-    default_value: basic_html
+    default_value: markdown
   'body/value': howTo
-  field_subtitle: subtitle
+  'field_what_is/format':
+    plugin: default_value
+    default_value: markdown
+  'field_what_is/value': whatIs
+  'field_why_do/format':
+    plugin: default_value
+    default_value: markdown
+  'field_why_do/value': whyDo
+  'field_how_to/format':
+    plugin: default_value
+    default_value: markdown
+  'field_how_to/value': howTo
+  field_time: time
   langcode:
     plugin: default_value
     default_value: en

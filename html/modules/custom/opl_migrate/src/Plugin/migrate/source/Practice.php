@@ -35,7 +35,12 @@ class Practice extends SourcePluginBase {
       'title' => $this->t('Title'),
       'subtitle' => $this->t('Subtitle'),
       'howTo' => $this->t('How To'),
+      'whatIs' => $this->t('What Is'),
+      'whyDo' => $this->t('Why Do'),
+      'howTo' => $this->t('How To'),
+      'time' => $this->t('Time'),
       'date' => $this->t('Date Published'),
+      'tags' => $this->t('Tags'),
       'yaml_filename' => $this->t("Source YAML filename"),
     ]; 
   }

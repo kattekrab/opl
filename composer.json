@@ -16,12 +16,26 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "https://packages.drupal.org/8"
+            "url": "https://packages.drupal.org/8",
+            "exclude": ["drupal/markdown"]
         },
         {
             "type": "composer",
             "url": "https://asset-packagist.org"
-        }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "drupal/markdown",
+                "type": "drupal-module",
+                "version": "dev-1.x",
+                "source": {
+                    "type": "git",
+                    "url": "https://git.drupalcode.org/issue/markdown-3103679",
+                    "reference": "6e951bd4f71d69e65273b0ab514518cd23a120d4"
+                }
+            }
+         }
     ],
     "require": {
         "php": ">=7.3",
@@ -32,11 +46,15 @@
         "drupal/core-composer-scaffold": "^9.2",
         "drupal/core-recommended": "^9.2",
         "drupal/ctools": "^3.2",
+        "drupal/diff": "^1.0",
+        "drupal/flag": "^4.0@beta",
+        "drupal/markdown": "dev-1.x",
         "drupal/migrate_plus": "^5.1",
         "drupal/migrate_tools": "^5.0",
         "drupal/pathauto": "^1.8",
         "drupal/token": "^1.7",
         "drush/drush": "^10.5",
+        "league/commonmark": "^1.0",
         "oomphinc/composer-installers-extender": "^2.0",
         "symfony/flex": "^1.10"
     },
